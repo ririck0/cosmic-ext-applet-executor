@@ -8,6 +8,33 @@ The popup layout is also inspired by the Executor GNOME extension UI.
 
 Popup open/close handling is based on patterns from [cosmic-applets](https://github.com/pop-os/cosmic-applets) (cosmic-applet-time), © System76, licensed under GPL-3.0.
 
+![Cosmic Executor popup](screenshots/screenshot.png)
+
+```json
+{
+  "separator": "•",
+  "blocks": [
+    {
+      "command": "LANG=C; date \"+%A %d %B %H:%M:%S\"",
+      "interval": 1
+    },
+    {
+      "command": "echo \"\\e[32mTest Executor\\e[0m\"",
+      "interval": 60
+    },
+    {
+      "command": "sensors | grep -m1 'Package' | awk '{print \"CPU \" $4}'",
+      "interval": 5
+    },
+    {
+      "command": "cat /proc/loadavg | awk '{print \"Load \" $1}'",
+      "interval": 5
+    }
+  ],
+  "font_size": 12.0
+}
+```
+
 ## Features
 
 - Multiple independent blocks, each with its own shell command and refresh interval
