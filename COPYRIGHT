@@ -1,0 +1,23 @@
+cosmic-ext-applet-executor
+Copyright © 2026 Ririck0
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+---
+
+Inspired by:
+
+  Executor — GNOME Shell extension
+  https://extensions.gnome.org/extension/2932/executor/
+  https://github.com/raujonas/executor
+  Author: raujonas
+
+Portions of the applet popup/panel integration pattern derived from:
+
+  cosmic-applets (cosmic-applet-time)
+  https://github.com/pop-os/cosmic-applets
+  Copyright © System76
+  Licensed under GPL-3.0-only

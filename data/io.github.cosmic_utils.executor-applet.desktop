@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Executor Applet
+Keywords=System;Monitor;
+Categories=Utility;System;
+
+Type=Application
+Icon=io.github.cosmic_utils.executor-applet-symbolic
+Exec=cosmic-ext-applet-executor
+Terminal=false
+StartupNotify=true
+NoDisplay=true
+X-CosmicApplet=true
+X-CosmicHoverPopup=Auto

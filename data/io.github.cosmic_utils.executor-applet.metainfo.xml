@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.cosmic_utils.executor-applet</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <project_group>COSMIC</project_group>
+  <developer_name>ririck0</developer_name>
+  <update_contact>ririck0</update_contact>
+  <name>Executor Applet</name>
+  <summary>Execute a script and display its output</summary>
+  <description>
+    This applet executes sheel script and displays its output in the panel.
+  </description>
+  <icon type="stock">io.github.cosmic_utils.executor-applet-symbolic.svg</icon>
+  <provides>
+    <id>com.system76.CosmicApplet</id>
+    <binaries>
+      <binary>cosmic-ext-executor-sysinfo</binary>
+    </binaries>
+  </provides>
+  <categories>
+    <category>Utility</category>
+    <category>System</category>
+  </categories>
+  <recommends>
+    <internet>always</internet>
+  </recommends>
+</component>
